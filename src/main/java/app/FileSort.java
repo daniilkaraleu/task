@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  */
 public class FileSort {
 
-    static String REGEX_PATTERN = " +";
+    static final String REGEX_PATTERN = " +";
     private List<List<String>> table;
     private app.FileReadWrite readWriter;
     /**
@@ -34,7 +34,6 @@ public class FileSort {
         table.sort(comparator);
 
         writeToFile(writeToFile);
-
     }
     /**
      * Reads all lines from the file, given by name, puts lines to the list, converts lines into

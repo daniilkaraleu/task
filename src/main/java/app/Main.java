@@ -1,7 +1,8 @@
 package app;
 
-import app.LinesComparator;
-import app.FileSort;
+import app.classes.FileSort;
+import app.comparators.LinesComparator;
+
 public class Main {
     public static void main(String [] args) {
         final String IN_TXT_PATH = "D:\\SortTask\\target\\in.txt";

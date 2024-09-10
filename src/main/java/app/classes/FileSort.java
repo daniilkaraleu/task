@@ -1,6 +1,9 @@
-package app;
+package app.classes;
 //import java.io.BufferedReader;
 //import java.io.File;
+import app.comparators.LinesComparator;
+import app.util.FileReadWrite;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -15,7 +18,7 @@ public class FileSort {
 
     static final String REGEX_PATTERN = " +";
     private List<List<String>> table;
-    private app.FileReadWrite readWriter;
+    private FileReadWrite readWriter;
     /**
      * Processes data table from file, given by name. Sorts table lines according to given Comparator,
      * writes sorted table to the file, given by name.

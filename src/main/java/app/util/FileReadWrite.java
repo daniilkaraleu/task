@@ -1,8 +1,6 @@
-package app;
+package app.util;
 
 import java.io.*;
-//import java.nio.charset.Charset;
-//import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class FileReadWrite {
-//    private final Charset charset = StandardCharsets.UTF_8;
 public FileReadWrite() {}
     /**
      * Reads all lines of text from the file by given path. Lines are considered to be terminated by
@@ -43,14 +42,5 @@ public FileReadWrite() {}
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
-
-//        for (String line : lines) {
-//            Path pathToWrite = new File(FILE_PATH).toPath();
-//
-//            StringBuilder sbd = new StringBuilder(line);
-//            sbd.append("\n");
-//
-//            Files.writeString(pathToWrite, sbd, StandardOpenOption.APPEND);
-//        }
     }
 }
